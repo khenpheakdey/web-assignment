@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+</head>
+<body>
+    <h1>Task 2: Register form with validation</h1>
+    <h2><a href="home.html">Home page</a></h2>
+    <form>  
+        <div>
+            <label for="Email">Email <span>*</span></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="email" name="email" placeholder="username@gmail.com" required>
+        </div>
+    <br>
+        <div>
+            <label for="Password">Password <span>*</span></label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="password" name="pass" id="password" minlength="8" placeholder="Enter a password" required>
+            <label for="Confirm Password">Confirm Password <span>*</span></label>
+            <input type="password" name="confirm_pass" id="confirm_pass" minlength="8" placeholder="Confrim Password" required>
+            <p>(Min Length 8 characters)</p>
+        </div>
+        <div>
+            <label for="phone">Phone <span>*</span></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="phone" id="phone" placeholder="Enter phone number">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
